@@ -1,0 +1,200 @@
+Java Environment
+=========================
+JDK : java development kit 
+       Version:
+		java  11 (beta) 
+		java 10   stable 
+		java 9 (skip)
+		java 8  /1.8  stable 
+		...........1.7
+		............1.6 
+	
+      JDK Components:
+	Javac	: java compiler which convert source code(.java) to byte code(.class)
+	Jvm,JIT   : java virtual machine (memory allocation , deallocation , GC)
+		JIT : just in time which is interpreter which convert byte code to 					native/machine code
+	JRE 	: java runtime environment  / library 		
+ 
+
+Editor/IDE (integrated development environment)
+	-Netbeans 
+	-Eclipse 
+		-Oxygen    **
+		-Neon        **
+		-Mars
+		-Juno
+		etc.
+	
+	
+Java Envionment Variable
+===========================
+JAVA_HOME : C:\Program Files\Java\jdk1.8.0_121
+
+open cmd:
+	java -version 
+	
+
+	
+
+Java Editions
+=====================
+J2SE		: java2 standard edition / core java / basic java 
+		-console application
+		-GUI (standalone application)
+J2EE		: java 2 enterprise edition 
+		-web application development
+J2ME  ? Android	: java 2 mobile edition 
+		
+JSF		
+Other:
+	Spring / MVC
+	Struts
+	Hibernate 
+	WebServices
+	etc.		
+
+
+
+Java Project's Structure
+=========================
+	Project1
+		-src	: source code
+			-package1 : is module or collection of java classes 
+				hello.java
+				test.java
+				...
+			-package2
+			....
+			....	
+		-jre 	: java runtime envionment /library 
+
+
+
+Keywords / system defined / predefined words 
+======================
+package	: is reference of current module or folder 
+public	: is access specifier / scope / can be accessed from anywhere
+class	: is wrapper of data member and function
+static	: -single memory allocation 
+	  -can be called/access without object 
+main	: is reserved function / startup function
+String	: is data type for alpha numeric
+int	: is data type for number without decimal
+float	: is data type for number with decimal 
+boolean	:
+if
+else
+etc.
+
+
+
+Syntax
+=======================
+//	- single line comment		
+/*
+	-multiple line comment 
+*/
+
+;	-termination of row/statement 
+[]	-array
+()	-function , condition , loop 
+{}	-body of function , condition , loop ,try catch, class etc.
+
+Note : java is case sensetive 
+
+
+Maven: is build, dependency management framework and tool 
+========================================================
+pom.xml 		: is configuration file 
+	-groupid 		: is project or solution 
+	-artifactid		: is application 
+	-version		: 1.0,1.1
+	-package		: .jar, .war 
+	-dependency	:
+			<dependenci...>
+				...
+
+MavenProject:
+	src
+		-main  : logical code
+		-test   : junit , testng 	
+	target		: output (.jar,.war)
+		
+	jre
+	maven_depencey
+	
+
+
+	etc.
+
+
+
+Variable and DataType
+=========================
+Variable: is temp. memory where data can be stored 
+DataType
+==============
+-Primitive 		: value type (single value)
+	byte		: 1 byte
+	short		: 2 byte
+	int		: 4 byte
+	long		: 8 byte
+	
+	float		: 4 byte
+	double		: 8 byte
+	
+	char		: 2 byte
+	boolean 		: 1 byte
+
+-Non-Primitive 		: reference type/class type / object type 
+	ArrayList
+	List
+			
+
+Operator
+==========================
+Arithmetic:
+	+
+	-
+	*
+	/		85/10 = 8.5
+	%		85%10 = 5
+
+Conditional:
+	>
+	>=
+	<
+	<=
+	==
+	!=
+	
+Logical:
+	&&		- and
+	||		-or
+
+Increment/Decrement:
+	++
+	--
+	postfix:
+		i++
+		i--
+	prefix:
+		++i
+		--i
+
+
+Assignment Operator:
+	=
+	+=
+	-=
+	*=	
+	/=
+	
+
+Conditional Statement
+==============================
+-if condition 
+-switch case 
+
+	
+
